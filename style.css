@@ -1,4 +1,22 @@
-body{
-    background-color: black;
-    color: aliceblue;
+.top-nav {
+    position: sticky;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    
+    
 }
+.list{
+    column-count:2;
+    margin-left:100px;
+}
+
+.content {
+    scroll-margin-top: 15em
+    margin-top: 200px;
+}
+.list:hover{
+    color: red;
+}
+
+
